@@ -1,0 +1,9 @@
+@import url("/css/assets/animate.css");
+
+.slide-text {
+  top: 40%;
+}
+
+.slide-text h2 {
+  text-transform: capitalize;
+}
