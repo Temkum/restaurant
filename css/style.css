@@ -14302,7 +14302,7 @@ File: scss
  ============================================================== */
 @media (min-width: 1024px) {
   .page-wrapper {
-    padding-top: 155px;
+    /* padding-top: 155px; */
   }
 
   .hover-dropdown .navbar-nav>.dropdown:hover>.dropdown-menu {
