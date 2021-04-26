@@ -1,16 +1,5 @@
-/*Theme Colors*/
-/*bootstrap Color*/
-/*Light colors*/
-/*Normal Color*/
-/*Extra Variable*/
-/*Gradiant*/
-/*============================================================== 
- This scss/css we made it from our predefine componenet 
- we just copy that css and paste here you can also do that
- ============================================================== */
-/*******************
-This is for Header
-*******************/
+This is for Header *******************/
+
 /*******************
 Header 16
 *******************/
@@ -183,8 +172,9 @@ slide 5
 }
 
 .slider5 h2 {
-  font-size: 46px;
-  line-height: 46px;
+  font-size: 60px;
+  line-height: 70px;
+  font-style: italic;
 }
 
 .slider5 h3 {
@@ -207,7 +197,7 @@ slide 5
   -webkit-animation-delay: 1.5s;
   animation-delay: 1.5s;
   margin-top: 40px;
-  background: url('/images/salad.jpg') no-repeat center top;
+  background: url(../images/slider/slide-offer-bg.jpg) no-repeat center top;
   background-size: cover;
   padding: 30px 50px;
   box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.1);
@@ -254,10 +244,6 @@ slide 5
   .slider5 .slide-image {
     left: -30%;
   }
-
-  .slider5 .slide-image2 {
-    left: -40%;
-  }
 }
 
 @media (max-width: 767px) {
@@ -279,7 +265,7 @@ slide 5
   }
 
   .slider5 p {
-    color: #717d97;
+    color: #8d97ad;
   }
 
   .slider5 .promo-code {
