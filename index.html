@@ -468,6 +468,77 @@
         </div>
         <!-- End Gallery  -->
 
+        <!-- Testimonial 1 -->
+        <div class="testimonial9 spacer bg-light">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-5 col-md-6">
+                <h2 class="m-t-40">What Our Customers Say</h2>
+                <span class="devider bg-danger"></span>
+                <p>We care what our customers think of us and so should you. We are partners in your business and your
+                  success
+                  is ours in your business.</p>
+              </div>
+              <div class="col-lg-6 col-md-6 ml-auto">
+                <div class="owl-carousel owl-theme testi9">
+                  <!-- item -->
+                  <div class="item">
+                    <div class="card card-shadow">
+                      <div class="p-40">
+                        <h5 class="text">Kamer Food has given our websites huge national presence.
+                        </h5>
+                      </div>
+                    </div>
+                    <div class="d-flex no-block align-items-center">
+                      <div class="customer-thumb"><img src="images/testi.jpg" alt="Testimonial" class="circle" />
+                      </div>
+                      <div class="">
+                        <h6 class="font-bold m-b-0">Jason Doe</h6><span class="font-13">Project client</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- item -->
+                  <div class="item">
+                    <div class="card card-shadow">
+                      <div class="p-40">
+                        <h5 class="text">We are #1 on page one in
+                          Google search results for every website we’ve built, and rank for more keywords than I ever
+                          expected in a very competitive, high-value customer industry.</h5>
+                      </div>
+                    </div>
+                    <div class="d-flex no-block align-items-center">
+                      <div class="customer-thumb"><img src="images/testi2.jpg" alt="Testimonial" class="circle" />
+                      </div>
+                      <div class="">
+                        <h6 class="font-bold m-b-0">Michael Jane</h6><span class="font-13">Project client</span>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- item -->
+                  <!-- item -->
+                  <div class="item">
+                    <div class="card card-shadow">
+                      <div class="p-40">
+                        <h5 class="text">And rank for more keywords than I ever expected
+                          in a very competitive, high-value customer industry. In addition,</h5>
+                      </div>
+                    </div>
+                    <div class="d-flex no-block align-items-center">
+                      <div class="customer-thumb"><img src="images/woman5.jpg" alt="Testimonial" class="circle" />
+                      </div>
+                      <div class="">
+                        <h6 class="font-bold m-b-0">Mael Johnson</h6><span class="font-13">Project client</span>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- item -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Testimonial 1  -->
 
       </div>
       <!-- END fluid container -->
@@ -479,20 +550,17 @@
   <!-- END Main-wrapper -->
 
   <!-- All Jquery -->
-  <!-- ============================================================== -->
   <script src="js/assets/jquery.min.js"></script>
   <!-- Bootstrap popper Core JavaScript -->
   <script src="js/assets/popper.min.js"></script>
-  <script src="js/assets/bootstrap.js"></script>
+  <script src="js/assets/bootstrap.min.js"></script>
   <!-- This is for the animation -->
   <script src="js/assets/aos.js"></script>
   <!--Custom JavaScript -->
   <script src="js/assets/custom.min.js"></script>
-  <link rel="stylesheet" href="js/assets/all.min.js">
-  <!-- ============================================================== -->
-  <!-- This page plugins -->
-  <!-- ============================================================== -->
-  <script src="js/assets/node_modules/bootstrap-touch-slider/bootstrap-touch-slider.js"></script>
+  <script src="js/assets/all.min.js"></script>
+
+  <script src="js/assets/bootstrap-touch-slider.js"></script>
   <script src="js/assets/jquery.touchSwipe.min.js"></script>
   <script src="js/assets/owl.carousel.min.js"></script>
   <script src="js/assets/isotope.pkgd.min.js"></script>
@@ -501,27 +569,6 @@
   <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
 
   <script src="js/main.js"></script>
-
-  <script>
-    $('#slider5').bsTouchSlider();
-    $(".carousel .carousel-inner").swipe({
-      swipeLeft: function (event, direction, distance, duration, fingerCount) {
-        this.parent().carousel('next');
-      },
-      swipeRight: function () {
-        this.parent().carousel('prev');
-      },
-      threshold: 0
-    });
-
-    // This is for the static slider 6
-    $('.video-img').on('click', function () {
-      $(this).addClass('hide');
-      $('.embed-responsive').show()
-        .removeClass('hide');
-      $("video").each(function () { this.play() });
-    });
-  </script>
 </body>
 
 </html>
