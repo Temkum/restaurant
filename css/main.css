@@ -1,17 +1,13 @@
-/* .slide-text {
-  top: 30%;
-} */
-
-.slide-text h2 {
-  /* color: red; */
-}
-
 .slide-text2 h2 {
   top: 70%;
   font-size: 40px;
   line-height: 45px;
-  padding: 0;
-  margin: 0;
+  color: rgba(34, 32, 32, 0.844);
+}
+
+.slide-text2 p {
+  color: rgba(34, 32, 32, 0.535);
+  font-weight: 400;
 }
 
 .h16-navbar nav {
@@ -27,6 +23,19 @@
   padding-top: 0px;
 }
 
-.slider5 .slide-image {
-  height: 100vh;
+.navbar-brand img {
+  width: 80px;
+  height: 80px;
+}
+
+@media (max-width:768px) {
+  .navbar-nav {
+    flex-direction: row;
+  }
+}
+
+@media (max-width:425px) {
+  .flex-colum {
+    flex-direction: column;
+  }
 }
