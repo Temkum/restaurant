@@ -1,15 +1,32 @@
-.slide-text {
-  top: 40%;
-}
+/* .slide-text {
+  top: 30%;
+} */
 
 .slide-text h2 {
-  text-transform: capitalize;
+  /* color: red; */
 }
 
-@media (min-width: 992px) {
-  .col-lg-4 {
-    flex: 0 0 33.33333%;
-    max-width: 33.33333%;
+.slide-text2 h2 {
+  top: 70%;
+  font-size: 40px;
+  line-height: 45px;
+  padding: 0;
+  margin: 0;
+}
 
-  }
+.h16-navbar nav {
+  z-index: 1000;
+}
+
+.slider5 .promo-code {
+  background: url(/images/salad.jpg) no-repeat center top;
+  background-size: cover;
+}
+
+.page-wrapper {
+  padding-top: 0px;
+}
+
+.slider5 .slide-image {
+  height: 100vh;
 }
